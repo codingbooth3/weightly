@@ -1,0 +1,40 @@
+#homeBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homeTitle {
+    font-size: 40px;
+    color: rgb(91, 167, 76);
+    margin-block: 5vh;
+}
+
+#homeSubTitle {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#homeHeader {
+    margin-top: 20vh;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+    #homeTitle {
+        margin-block: 2vh;
+    }
+
+    #homeSubTitle {
+        font-size: 1.25rem;
+    }
+
+    #homeHeader {
+        margin-top: 5vh;
+        font-size: 1.25rem;
+        margin-inline: 5vw;
+        text-align: center;
+    }
+}

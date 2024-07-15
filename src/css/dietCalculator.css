@@ -1,0 +1,53 @@
+#dietBody {
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-inline: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#dietBodyContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    height: auto;
+}
+
+#inputBmrExcercise {
+    align-items: center;
+}
+
+#dietContainer {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#diet {
+    margin-bottom: 10vh;
+}
+
+#imageContainer {
+    margin-block: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Image {
+    margin-block: 1vh;
+    height: 20vh;
+}
+
+@media (max-width: 700px) {
+    #dietBody {
+        margin-bottom: 15vh;
+    }
+
+    .Image {
+        max-width: 60vw;
+    }
+}
